@@ -1,0 +1,13 @@
+Address : ::1; Time: 15.09.2024, 16:08:45; URL : /
+Address : ::1; Time: 15.09.2024, 16:08:52; URL : /products/acer
+Address : ::1; Time: 15.09.2024, 16:08:58; URL : /products
+Address : ::1; Time: 15.09.2024, 16:09:15; URL : /products/acer
+Address : ::1; Time: 15.09.2024, 16:09:20; URL : /products/macbook
+Address : ::1; Time: 15.09.2024, 16:09:25; URL : /products/razer
+Address : ::1; Time: 15.09.2024, 16:09:40; URL : /category
+Address : ::1; Time: 15.09.2024, 16:09:51; URL : /category/toys
+Address : ::1; Time: 15.09.2024, 16:11:04; URL : /
+Address : ::1; Time: 15.09.2024, 16:11:10; URL : /category
+Address : ::1; Time: 15.09.2024, 16:12:08; URL : /
+Address : ::1; Time: 15.09.2024, 16:12:12; URL : /category
+Address : ::1; Time: 15.09.2024, 16:12:19; URL : /category/books

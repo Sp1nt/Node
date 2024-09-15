@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            width: 100%;
+            background-color: lightslategray;
+            padding: 25px;
+        }
+
+        .container {
+            margin: 0 35px;
+        }
+
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul,
+        li {
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+
+        .a {
+            text-decoration: none;
+        }
+
+        .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 25px;
+        }
+
+        .nav__list-wrapper {
+            display: flex;
+        }
+
+        .nav__list-item {
+            padding: 10px;
+            background-color: bisque;
+            border-radius: 15px;
+
+        }
+
+        .nav__list-item:not(:last-child) {
+            margin-right: 25px;
+        }
+
+        .list__item-link {
+            text-decoration: none;
+            color: black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="wrapper">
+                <div class="nav">
+                    <ul class="nav__list-wrapper">
+                        <li class="nav__list-item"><a class="list__item-link" href="#">Домашняя</a> </li>
+                        <li class="nav__list-item"><a class="list__item-link" href="#">Новости</a></li>
+                        <li class="nav__list-item"><a class="list__item-link" href="#">О нас</a></li>
+                    </ul>
+                </div>
+                <div class="form">
+                    <ul class="nav__list-wrapper">
+                        <li class="nav__list-item"><a class="list__item-link" href="#">Sign in</a></li>
+                        <li class="nav__list-item"><a class="list__item-link" href="#">Sign up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>

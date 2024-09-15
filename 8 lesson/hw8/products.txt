@@ -1,0 +1,17 @@
+[
+  {
+    "name": "acer",
+    "price": "$806",
+    "CPU": "Intel Core i5-12450H"
+  },
+  {
+    "name": "macbook",
+    "price": "$866",
+    "CPU": "Apple M1"
+  },
+  {
+    "name": "razer",
+    "price": "$7 398",
+    "CPU": "Intel Core i9-13950HX"
+  }
+]

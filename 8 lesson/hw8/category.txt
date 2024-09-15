@@ -1,0 +1,14 @@
+[
+  {
+    "category": "electronics",
+    "value": "5"
+  },
+  {
+    "category": "toys",
+    "value": "12"
+  },
+  {
+    "category": "books",
+    "value": "32"
+  }
+]
