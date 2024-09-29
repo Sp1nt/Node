@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Faculties</title>
+</head>
+
+<body>
+    <h1>Manage Faculties</h1>
+
+    <h2>Add Faculty</h2>
+    <form action="/add-faculty" method="POST">
+        <label for="facultyName">Faculty Name:</label>
+        <input type="text" id="facultyName" name="facultyName" required>
+        <button type="submit">Add Faculty</button>
+    </form>
+
+    <h2>Edit Faculty</h2>
+    <form action="/edit-faculty" method="POST">
+        <label for="facultyId">Faculty ID:</label>
+        <input type="number" id="facultyId" name="facultyId" required><br>
+
+        <label for="newFacultyName">New Faculty Name:</label>
+        <input type="text" id="newFacultyName" name="newFacultyName" required><br>
+
+        <button type="submit">Edit Faculty</button>
+    </form>
+
+    <h2>Delete Faculty</h2>
+    <form action="/delete-faculty" method="POST">
+        <label for="deleteFacultyId">Faculty ID:</label>
+        <input type="number" id="deleteFacultyId" name="facultyId" required>
+        <button type="submit">Delete Faculty</button>
+    </form>
+</body>
+
+</html>

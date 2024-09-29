@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Students</title>
+</head>
+
+<body>
+    <h1>Manage Students</h1>
+
+    <h2>Add Student</h2>
+    <form action="/add-student" method="POST">
+        <label for="studentFirstName">First Name:</label>
+        <input type="text" id="studentFirstName" name="StudentFirstName" required><br>
+
+        <label for="studentLastName">Last Name:</label>
+        <input type="text" id="studentLastName" name="StudentLastName" required><br>
+
+        <label for="groupName">Group Name:</label>
+        <input type="text" id="groupName" name="GroupName" required><br>
+
+        <button type="submit">Add Student</button>
+    </form>
+
+    <h2>Edit Student</h2>
+    <form action="/edit-student" method="POST">
+        <label for="studentId">Student ID:</label>
+        <input type="number" id="studentId" name="studentId" required><br>
+
+        <label for="newStudentFirstName">New First Name:</label>
+        <input type="text" id="newStudentFirstName" name="newStudentFirstName" required><br>
+
+        <label for="newStudentLastName">New Last Name:</label>
+        <input type="text" id="newStudentLastName" name="newStudentLastName" required><br>
+
+        <label for="newGroupName">New Group Name:</label>
+        <input type="text" id="newGroupName" name="newGroupName" required><br>
+
+        <button type="submit">Edit Student</button>
+    </form>
+
+    <h2>Delete Student</h2>
+    <form action="/delete-student" method="POST">
+        <label for="deleteStudentId">Student ID:</label>
+        <input type="number" id="deleteStudentId" name="studentId" required>
+        <button type="submit">Delete Student</button>
+    </form>
+</body>
+
+</html>
